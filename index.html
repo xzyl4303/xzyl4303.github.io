@@ -96,19 +96,6 @@
           .animate(properties, options)
           .promise();
       }
-
-      function registerCheatCode() {
-        $(document.body).on('keydown', function (event) {
-          var KEY_B = 66;
-
-          if (event.which === KEY_B) {
-            $('.relocate-location').text('Bookmark Page');
-            $('.relocating').css('opacity', 1);
-
-            window.setTimeout(function () {
-              window.location.href = '/bookmarks.html';
-            }, 1000);
-          }
         });
       }
     });
