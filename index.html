@@ -7,6 +7,7 @@
   <title>xzyl4303个人首页</title>
   <meta name="Description" content="xzyl4303个人首页">
   <meta name="color-scheme" content="dark light">
+    <meta name="sentences-data" content="sentences.txt">
   <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
   <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
 </head>
@@ -19,7 +20,7 @@
       <span class="quote-icon quote-icon-start animate-slide-in-down">
         <i class="icon icon-quotes-left"></i>
       </span>
-      <p class="quote-content animate-slide-in-down">道生一，一生二，二生三，三生万物</p>
+  <p class="quote-content animate-slide-in-down" id="quote-content"></p>
       <p class="quote-author animate-slide-in-down">《道德经》—— <em>老子</em></p>
       <span class="quote-icon quote-icon-end animate-slide-in-up">
         <i class="icon icon-quotes-right"></i>
@@ -36,6 +37,24 @@
   </div>
 
   <script src="assets/vendors/jquery-3.3.1.min.js"></script>
+   <script>
+    $(function () {
+      // 获取句子数据文件的路径
+      var sentencesDataPath = $('meta[name="sentences-data"]').attr('content');
+
+      // 发起GET请求来获取句子数据
+      $.get(sentencesDataPath, function(data) {
+        // 将文本数据按空行分割成句子数组
+        var sentences = data.split('\n\n');
+
+        // 从句子数组中随机选择一个句子
+        var randomSentence = sentences[Math.floor(Math.random() * sentences.length)];
+
+        // 将随机选择的句子显示在网页上
+        $('#quote-content').text(randomSentence);
+      });
+      </script>
+
   <script>
     $(function () {
       var SLIDE_IN_DOWN = { opacity: 1, top: 0 };
