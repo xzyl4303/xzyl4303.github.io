@@ -1,8 +1,8 @@
 ul{
     width: 350px;
-    height: 20px;
+    height: 30px;
     line-height: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.21);
 }/* 对导航栏的整体样式进行设置 */
 ul li{
     list-style: none;
