@@ -19,7 +19,6 @@
 [![Static Badge](https://img.shields.io/badge/JavaScript-yellow?logo=Javascript&logoColor=%23ffffff)](#)
 
 
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xzyl4303&show_icons=true&theme=graywhite)](#)
