@@ -15,9 +15,72 @@
       cursor: url('1.cur'), auto;
     }
   </style>
+    <style>
+    ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: #999;
+     overflow: hidden;
+    
+ }
+
+ li {
+     float: left;
+ }
+
+ li a {
+     color: white;
+     padding: 14px 16px;
+     display: inline-block;
+     text-decoration: none;
+ }
+
+ li>a.active {
+     background-color: rgba(0, 0, 0, 0.666)
+ }
+
+ li>a:hover:not(a.active),
+ .dropbtn:hover {
+     background-color: #555;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     /* 默认相对于<html>进行绝对定位 */
+     background-color: #f9f9f9;
+     min-width: 100px;
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+ }
+
+ .dropdown-content a {
+     color: black;
+     display: block;
+     /* 因为<a>标签不是块元素，min-width:100px不会生效 */
+ }
+
+ .dropdown-content a:hover {
+     background-color: #f1f1f1;
+     color: deepskyblue;
+ }
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+    </style>
 </head>
 
 <body>
+   <ul>
+    <li><a href="https://xzyl4303.github.io/xzyl4303/" class="active">首页</a></li>
+    <li><a href="https://xzyl4303.github.io/xzyl4303/email.html">找到我 & 联系方式</a></li>
+    <li>
+        <div class="dropdown"> <a href="https://xzyl4303.github.io/xzyl4303/game.html" class="dropbtn">游戏</a>
+            <div class="dropdown-content"> <a href="https://xzyl4303.github.io/xzyl4303/Google-Dino/index.html">Google-Dino</a> <a href="https://xzyl4303.github.io/xzyl4303/2048/index.html">2048</a> <a href="https://xzyl4303.github.io/xzyl4303/xiangqi/xiangqi/index.html">中国象棋</a> <a href="https://xzyl4303.github.io/xzyl4303/chess/index.html">国际象棋</a> <a href="https://xzyl4303.github.io/xzyl4303/Edge-Surf/index.html">Edge-Surf</a> <a href="https://xzyl4303.github.io/xzyl4303/%E8%B4%AA%E5%90%83%E8%9B%87.html">贪吃蛇</a> </div>
+        </div>
+    </li>
+</ul>
   <div class="vi">
     <h1 class="animate-slide-in-down">找到我 & 联系方式</h1>
     <div class="quote">
@@ -288,6 +351,6 @@ function clickEffect() {
   }
 }
 clickEffect();//调用特效函数
-</script>
+</script>  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/> <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
 </body>
 </html>
