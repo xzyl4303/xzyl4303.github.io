@@ -3,7 +3,7 @@
 
 
 [![Static Badge](https://img.shields.io/badge/Github-black?logo=Github)](https://github.com/xzyl4303)
-[![Static Badge](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-grey?logo=Github)](https://xzyl4303.github.io/xzyl4303)
+[![Static Badge](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-grey?logo=Github)](https://xzyl4303.github.io/)
 [![Static Badge](https://img.shields.io/badge/blogger-orange?logo=blogger&logoColor=%23ffffff)](https://xgwji.blogspot.com/)
 [![Static Badge](https://img.shields.io/badge/BiliBili-pink?logo=bilibili)
 ](https://space.bilibili.com/1179220018)
@@ -22,7 +22,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xzyl4303&show_icons=true&theme=graywhite)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xzyl4303&show_icons=true&theme=graywhite)](#)
 
 
 
