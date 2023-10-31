@@ -5,7 +5,8 @@
 
 博客：https://xgwji.blogspot.com/
 
-哔哩哔哩：https://space.bilibili.com/1179220018
+[![Static Badge](https://img.shields.io/badge/BiliBili-pink?logo=bilibili)
+](https://space.bilibili.com/1179220018)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
