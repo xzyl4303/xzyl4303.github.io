@@ -18,6 +18,18 @@
 [![Static Badge](https://img.shields.io/badge/CSS3-blue?logo=CSS3&logoColor=%23ffffff)](#)
 [![Static Badge](https://img.shields.io/badge/JavaScript-yellow?logo=Javascript&logoColor=%23ffffff)](#)
 
+开发所使用的工具：
+
+![Static Badge](https://img.shields.io/badge/Vercel-black?logo=Vercel&logoColor=%23ffffff)
+![Static Badge](https://img.shields.io/badge/Github-black?logo=GitHub&logoColor=%23ffffff)
+![Static Badge](https://img.shields.io/badge/ChatGPT-black?logo=openai&logoColor=%23ffffff)
+![Static Badge](https://img.shields.io/badge/Visual%20Studio%20Code-black?logo=visualstudiocode&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/Xcode-black?logo=xcode&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/Chrome-black?logo=googlechrome)
+
+
+
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
