@@ -1,20 +1,384 @@
-<h1 id="hello">Hello!</h1>
-<h2 id="">欢迎来到我的主页👏</h2>
-<p><a href="https://github.com/xzyl4303"><img src="https://img.shields.io/badge/Github-black?logo=Github" alt="Static Badge" /></a>
-<a href="https://xzyl4303.github.io/"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-grey?logo=Github" alt="Static Badge" /></a>
-<a href="https://xgwji.blogspot.com/"><img src="https://img.shields.io/badge/blogger-orange?logo=blogger&logoColor=%23ffffff" alt="Static Badge" /></a>
-<a href="https://space.bilibili.com/1179220018"><img src="https://img.shields.io/badge/BiliBili-pink?logo=bilibili" alt="Static Badge" />
-</a></p>
-<p>目前正在学习HTML5，CSS3，JavaScript语言</p>
-<p><a href="#"><img src="https://img.shields.io/badge/HTML5-orange?logo=HTML5&logoColor=%23ffffff" alt="Static Badge" /></a>
-<a href="#"><img src="https://img.shields.io/badge/CSS3-blue?logo=CSS3&logoColor=%23ffffff" alt="Static Badge" /></a>
-<a href="#"><img src="https://img.shields.io/badge/JavaScript-yellow?logo=Javascript&logoColor=%23ffffff" alt="Static Badge" /></a></p>
-<p>开发所使用的工具：</p>
-<p><img src="https://img.shields.io/badge/Vercel-black?logo=Vercel&logoColor=%23ffffff" alt="Static Badge" />
-<img src="https://img.shields.io/badge/Github-black?logo=GitHub&logoColor=%23ffffff" alt="Static Badge" />
-<img src="https://img.shields.io/badge/ChatGPT-black?logo=openai&logoColor=%23ffffff" alt="Static Badge" />
-<img src="https://img.shields.io/badge/Visual%20Studio%20Code-black?logo=visualstudiocode&logoColor=blue" alt="Static Badge" />
-<img src="https://img.shields.io/badge/Xcode-black?logo=xcode&logoColor=blue" alt="Static Badge" />
-<img src="https://img.shields.io/badge/Chrome-black?logo=googlechrome" alt="Static Badge" /></p>
-<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact" alt="Top Langs" /></a></p>
-<p><a href="#"><img src="https://github-readme-stats.vercel.app/api?username=xzyl4303&show_icons=true&theme=graywhite" alt="Anurag's GitHub stats" /></a></p>
+<!doctype html>
+<html lang="zh" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="sentences-data" content="sentences.txt">
+  <title>关于我</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="Description" content="关于我">
+  <meta name="color-scheme" content="dark light">
+  <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+   <link rel="stylesheet" href="导航栏下拉.css">
+ <style>
+    /* 添加自定义鼠标样式 */
+    * {
+      cursor: url('1.cur'), auto;
+    }
+  </style>
+  <style>
+    ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: #999;
+     overflow: hidden;
+    
+ }
+
+ li {
+     float: left;
+ }
+
+ li a {
+     color: white;
+     padding: 14px 16px;
+     display: inline-block;
+     text-decoration: none;
+ }
+
+ li>a.active {
+     background-color: rgba(0, 0, 0, 0.666)
+ }
+
+ li>a:hover:not(a.active),
+ .dropbtn:hover {
+     background-color: #555;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     /* 默认相对于<html>进行绝对定位 */
+     background-color: #f9f9f9;
+     min-width: 100px;
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+ }
+
+ .dropdown-content a {
+     color: black;
+     display: block;
+     /* 因为<a>标签不是块元素，min-width:100px不会生效 */
+ }
+
+ .dropdown-content a:hover {
+     background-color: #f1f1f1;
+     color: deepskyblue;
+ }
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+    </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="https://xzyl4303.github.io/" class="active">首页</a></li>
+    <li><a href="email.html">找到我 & 联系方式</a></li>
+    <li>
+        <div class="dropdown"> <a href="game.html" class="dropbtn">游戏</a>
+            <div class="dropdown-content"> <a href="Google-Dino/index.html">Google-Dino</a> <a href="2048/index.html">2048</a> <a href="xiangqi/xiangqi/index.html">中国象棋</a> <a href="chess/index.html">国际象棋</a> <a href="Edge-Surf/index.html">Edge-Surf</a> <a href="%E8%B4%AA%E5%90%83%E8%9B%87.html">贪吃蛇</a> </div>
+        </div>
+    </li>
+</ul>
+  <div class="vi">
+    <h1 class="animate-slide-in-down">xzyl4303</h1>
+    <div class="quote">
+      <span class="quote-line quote-line-start animate-slide-in-left"></span>
+      <span class="quote-icon quote-icon-start animate-slide-in-down">
+        <i class="icon icon-quotes-left"></i>
+      </span>
+      <p class="quote-content animate-slide-in-down" id="quote-content"></p>
+      <p class="quote-author animate-slide-in-down" id="quote-author"></p>      
+      <span class="quote-icon quote-icon-end animate-slide-in-up">
+        <i class="icon icon-quotes-right"></i>
+      </span>
+      <span class="quote-line quote-line-end animate-slide-in-right"></span>
+    </div>
+    <p> 一个喜欢玩Minecraft的屑 </p>
+    <div class="links">
+      <a href="email.html" class="animate-slide-in-down">找到我&联系方式</a>
+      <a href="game.html" class="animate-slide-in-down">游戏</a>
+      <a href="about.html" class="animate-slide-in-down">关于我</a>
+    </div>
+    <div class="relocating">
+      Navigating to: <span class="relocate-location"></span>...
+    </div>
+  </div>
+  <script src="assets/vendors/jquery-3.3.1.min.js"></script>
+<section ></section>
+<script type='text/javascript'>
+!function () { function o(w, v, i) { return w.getAttribute(v) || i } function j(i) { return document.getElementsByTagName(i) } function l() { var i = j("script"), w = i.length, v = i[w - 1]; return { l: w, z: o(v, "zIndex", -1), o: o(v, "opacity", 0.5), c: o(v, "color", "0,0,0"), n: o(v, "count", 99) } } function k() { r = u.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth, n = u.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight } function b() { e.clearRect(0, 0, r, n); var w = [f].concat(t); var x, v, A, B, z, y; t.forEach(function (i) { i.x += i.xa, i.y += i.ya, i.xa *= i.x > r || i.x <0 ? -1 : 1, i.ya *=i.y>n || i.y <0 ? -1 : 1, e.fillRect(i.x - 0.5, i.y - 0.5, 1, 1); for (v=0; v < w.length; v++) { x = w[v]; if (i !== x &&null !== x.x &&null !== x.y) { B = i.x - x.x, z = i.y - x.y, y = B * B + z * z; y <x.max && (x=== f && y>= x.max / 2 &&(i.x -= 0.03 * B, i.y -= 0.03 * z), A = (x.max - y) / x.max, e.beginPath(), e.lineWidth = A / 2, e.strokeStyle = "rgba(" + s.c + "," + (A + 0.2) + ")", e.moveTo(i.x, i.y), e.lineTo(x.x, x.y), e.stroke()) } } w.splice(w.indexOf(i), 1) }), m(b) } var u = document.createElement("canvas"),  s = l(), c = "c_n" + s.l, e = u.getContext("2d"), r, n, m = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (i) { window.setTimeout(i, 1000 / 45) }, a = Math.random, f = { x: null, y: null, max: 20000 }; u.id = c; u.className = "hidden-xs hidden-sm my_canvas"; u.style.cssText = "position:fixed;top:0;left:0;z-index:" + s.z + ";opacity:" + s.o; j("body")[0].appendChild(u); k(), window.onresize = k; window.onmousemove = function (i) { i = i || window.event, f.x = i.clientX, f.y = i.clientY }, window.onmouseout = function () { f.x = null, f.y = null }; for (var t = [], p = 0; s.n > p; p++) { var h = a() * r, g = a() * n, q = 2 * a() - 1, d = 2 * a() - 1; t.push({ x: h, y: g, xa: q, ya: d, max: 6000 }) } setTimeout(function () { b() }, 100) }();
+</script>
+  <script>
+    $(function () {
+      var SLIDE_IN_DOWN = { opacity: 1, top: 0 };
+      var SLIDE_IN_UP = { opacity: 1, bottom: 0 };
+      var SLIDE_IN_LEFT = { left: 0 };
+      var SLIDE_IN_RIGHT = { right: 0 };
+
+      executeAnimations();
+
+      function executeAnimations() {
+        $.when()
+          .then(animateTitle)
+          .then(animateQuote)
+          .then(animateLinks)
+          .then(animateLocation);
+      }
+
+      function animateTitle() {
+        return animate('h1', SLIDE_IN_DOWN);
+      }
+
+      function animateQuote() {
+        return $.when(
+          animate('.quote-line-start', SLIDE_IN_LEFT),
+          animate('.quote-line-end',SLIDE_IN_RIGHT),
+          animate('.quote-icon-start', SLIDE_IN_DOWN),
+          animate('.quote-icon-end', SLIDE_IN_UP)
+        )
+          .then(function () {
+            return animate('.quote-content', SLIDE_IN_DOWN);
+          })
+          .then(function () {
+            return animate('.quote-author', SLIDE_IN_DOWN);
+          });
+      }
+
+      function animateLinks() {
+        var DELAY_STEP = 200;
+        var elements = $('.links a');
+        var concurrent = $.makeArray(elements)
+          .map(function (element, index) {
+            return animate(element, SLIDE_IN_DOWN, index * DELAY_STEP);
+          });
+
+        return $.when.apply($, concurrent);
+      }
+
+      function animateLocation() {
+        return $.when(
+          animate('.location-icon', SLIDE_IN_UP),
+          animate('.location-text', SLIDE_IN_DOWN)
+        );
+      }
+
+      function animate(selector, properties, delay, options) {
+        delay = delay || 0;
+        return $(selector).delay(delay)
+          .animate(properties, options)
+          .promise();
+      }
+    });
+  </script>
+    <script>
+     $(function () {
+    // 获取句子数据文件的路径
+    var sentencesDataPath = $('meta[name="sentences-data"]').attr('content');
+
+    // 使用fetch API 异步加载句子数据
+    fetch(sentencesDataPath)
+        .then(response => response.text())
+        .then(data => {
+            // 将文本数据按空行分割成句子数组
+            var sentences = data.split('\n\n');
+
+            // 从句子数组中随机选择一个句子
+            var randomSentence = sentences[Math.floor(Math.random() * sentences.length)];
+
+            // 将句子和作者信息显示在网页上
+            var [sentenceText, authorAndSource] = randomSentence.split('#');
+            $('#quote-content').text(sentenceText);
+            $('#quote-author').text(authorAndSource);
+        })
+        .catch(error => console.error('Error:', error));
+});
+    </script>
+   <script>
+  !function () {
+    function n(n, e, t) {
+        return n.getAttribute(e) || t
+    }
+ 
+    function e(n) {
+        return document.getElementsByTagName(n)
+    }
+ 
+    function t() {
+        var t = e("script"), o = t.length, i = t[o - 1];
+        return {l: o, z: n(i, "zIndex", -1), o: n(i, "opacity", .5), c: n(i, "color", "0,0,0"), n: n(i, "count", 99)}
+    }
+ 
+    function o() {
+        a = m.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth, c = m.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+    }
+ 
+    function i() {
+        r.clearRect(0, 0, a, c);
+        var n, e, t, o, m, l;
+        s.forEach(function (i, x) {
+            for (i.x += i.xa, i.y += i.ya, i.xa *= i.x > a || i.x < 0 ? -1 : 1, i.ya *= i.y > c || i.y < 0 ? -1 : 1, r.fillRect(i.x - .5, i.y - .5, 1, 1), e = x + 1; e < u.length; e++) n = u[e], null !== n.x && null !== n.y && (o = i.x - n.x, m = i.y - n.y, l = o * o + m * m, l < n.max && (n === y && l >= n.max / 2 && (i.x -= .03 * o, i.y -= .03 * m), t = (n.max - l) / n.max, r.beginPath(), r.lineWidth = t / 2, r.strokeStyle = "rgba(" + d.c + "," + (t + .2) + ")", r.moveTo(i.x, i.y), r.lineTo(n.x, n.y), r.stroke()))
+        }), x(i)
+    }
+ 
+    var a, c, u, m = document.createElement("canvas"), d = t(), l = "c_n" + d.l, r = m.getContext("2d"),
+        x = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (n) {
+            window.setTimeout(n, 1e3 / 45)
+        }, w = Math.random, y = {x: null, y: null, max: 2e4};
+    m.id = l, m.style.cssText = "position:fixed;top:0;left:0;z-index:" + d.z + ";opacity:" + d.o, e("body")[0].appendChild(m), o(), window.onresize = o, window.onmousemove = function (n) {
+        n = n || window.event, y.x = n.clientX, y.y = n.clientY
+    }, window.onmouseout = function () {
+        y.x = null, y.y = null
+    };
+    for (var s = [], f = 0; d.n > f; f++) {
+        var h = w() * a, g = w() * c, v = 2 * w() - 1, p = 2 * w() - 1;
+        s.push({x: h, y: g, xa: v, ya: p, max: 6e3})
+    }
+    u = s.concat([y]), setTimeout(function () {
+        i()
+    }, 100)
+}();
+      </script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/> <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+  <script>
+function clickEffect() {
+  let balls = [];
+  let longPressed = false;
+  let longPress;
+  let multiplier = 0;
+  let width, height;
+  let origin;
+  let normal;
+  let ctx;
+  const colours = ["#F73859", "#14FFEC", "#00E0FF", "#FF99FE", "#FAF15D"];
+  const canvas = document.createElement("canvas");
+  document.body.appendChild(canvas);
+  canvas.setAttribute("style", "width: 100%; height: 100%; top: 0; left: 0; z-index: 99999; position: fixed; pointer-events: none;");
+  const pointer = document.createElement("span");
+  pointer.classList.add("pointer");
+  document.body.appendChild(pointer);
+ 
+  if (canvas.getContext && window.addEventListener) {
+    ctx = canvas.getContext("2d");
+    updateSize();
+    window.addEventListener('resize', updateSize, false);
+    loop();
+    window.addEventListener("mousedown", function(e) {
+      pushBalls(randBetween(10, 20), e.clientX, e.clientY);
+      document.body.classList.add("is-pressed");
+      longPress = setTimeout(function(){
+        document.body.classList.add("is-longpress");
+        longPressed = true;
+      }, 500);
+    }, false);
+    window.addEventListener("mouseup", function(e) {
+      clearInterval(longPress);
+      if (longPressed == true) {
+        document.body.classList.remove("is-longpress");
+        pushBalls(randBetween(50 + Math.ceil(multiplier), 100 + Math.ceil(multiplier)), e.clientX, e.clientY);
+        longPressed = false;
+      }
+      document.body.classList.remove("is-pressed");
+    }, false);
+    window.addEventListener("mousemove", function(e) {
+      let x = e.clientX;
+      let y = e.clientY;
+      pointer.style.top = y + "px";
+      pointer.style.left = x + "px";
+    }, false);
+  } else {
+    console.log("canvas or addEventListener is unsupported!");
+  }
+ 
+ 
+  function updateSize() {
+    canvas.width = window.innerWidth * 2;
+    canvas.height = window.innerHeight * 2;
+    canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+    ctx.scale(2, 2);
+    width = (canvas.width = window.innerWidth);
+    height = (canvas.height = window.innerHeight);
+    origin = {
+      x: width / 2,
+      y: height / 2
+    };
+    normal = {
+      x: width / 2,
+      y: height / 2
+    };
+  }
+  class Ball {
+    constructor(x = origin.x, y = origin.y) {
+      this.x = x;
+      this.y = y;
+      this.angle = Math.PI * 2 * Math.random();
+      if (longPressed == true) {
+        this.multiplier = randBetween(14 + multiplier, 15 + multiplier);
+      } else {
+        this.multiplier = randBetween(6, 12);
+      }
+      this.vx = (this.multiplier + Math.random() * 0.5) * Math.cos(this.angle);
+      this.vy = (this.multiplier + Math.random() * 0.5) * Math.sin(this.angle);
+      this.r = randBetween(8, 12) + 3 * Math.random();
+      this.color = colours[Math.floor(Math.random() * colours.length)];
+    }
+    update() {
+      this.x += this.vx - normal.x;
+      this.y += this.vy - normal.y;
+      normal.x = -2 / window.innerWidth * Math.sin(this.angle);
+      normal.y = -2 / window.innerHeight * Math.cos(this.angle);
+      this.r -= 0.3;
+      this.vx *= 0.9;
+      this.vy *= 0.9;
+    }
+  }
+ 
+  function pushBalls(count = 1, x = origin.x, y = origin.y) {
+    for (let i = 0; i < count; i++) {
+      balls.push(new Ball(x, y));
+    }
+  }
+ 
+  function randBetween(min, max) {
+    return Math.floor(Math.random() * max) + min;
+  }
+ 
+  function loop() {
+    ctx.fillStyle = "rgba(255, 255, 255, 0)";
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.r < 0) continue;
+      ctx.fillStyle = b.color;
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2, false);
+      ctx.fill();
+      b.update();
+    }
+    if (longPressed == true) {
+      multiplier += 0.2;
+    } else if (!longPressed && multiplier >= 0) {
+      multiplier -= 0.4;
+    }
+    removeBall();
+    requestAnimationFrame(loop);
+  }
+ 
+  function removeBall() {
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.x + b.r < 0 || b.x - b.r > width || b.y + b.r < 0 || b.y - b.r > height || b.r < 0) {
+        balls.splice(i, 1);
+      }
+    }
+  }
+}
+clickEffect();//调用特效函数
+</script>
+</body>
+</html>
