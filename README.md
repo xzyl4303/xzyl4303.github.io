@@ -7,6 +7,7 @@
 [![Static Badge](https://img.shields.io/badge/blogger-orange?logo=blogger&logoColor=%23ffffff)](https://xgwji.blogspot.com/)
 [![Static Badge](https://img.shields.io/badge/BiliBili-pink?logo=bilibili)
 ](https://space.bilibili.com/1179220018)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=xzyl4303&left_color=green&right_color=red)
 
 
 
@@ -27,9 +28,9 @@
 ![Static Badge](https://img.shields.io/badge/Xcode-black?logo=xcode&logoColor=blue)
 ![Static Badge](https://img.shields.io/badge/Chrome-black?logo=googlechrome)
 
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=xzyl4303)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-
-
+[![trophy](https://github-profile-trophy.vercel.app/?username=xzyl4303)](https://github.com/ryo-ma/github-profile-trophy)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
