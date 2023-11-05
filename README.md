@@ -40,6 +40,6 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=xzyl4303)](#)
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=xzyl4303&theme=react)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=xzyl4303&theme=react)](#)
 
 
