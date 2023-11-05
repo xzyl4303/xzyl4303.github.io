@@ -2,6 +2,8 @@
 ## 欢迎来到我的主页👏
 
 
+ <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=10&color=000000&center=%E7%9C%9F%E7%9A%84&vCenter=%E7%9C%9F%E7%9A%84&repeat=%E7%9C%9F%E7%9A%84&random=%E7%9C%9F%E7%9A%84&width=200&height=30&lines=Hello+World+!;Hello+World+!" alt="Typing SVG" /></a>
+
 [![Static Badge](https://img.shields.io/badge/Github-black?logo=Github)](https://github.com/xzyl4303)
 [![Static Badge](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-grey?logo=Github)](https://xzyl4303.github.io/)
 [![Static Badge](https://img.shields.io/badge/blogger-orange?logo=blogger&logoColor=%23ffffff)](https://xgwji.blogspot.com/)
