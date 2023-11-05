@@ -34,11 +34,11 @@
 
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](#)
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xzyl4303&show_icons=true&theme=graywhite)](#)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=xzyl4303)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=xzyl4303)](#)
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=xzyl4303&theme=react)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
