@@ -1,3 +1,5 @@
+
+   
    ![](favicon.ico)
 
    [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=10&color=000000&center=%E7%9C%9F%E7%9A%84&vCenter=%E7%9C%9F%E7%9A%84&repeat=%E7%9C%9F%E7%9A%84&random=%E7%9C%9F%E7%9A%84&width=200&height=30&lines=Hello+World+!;Hello+World+!)](#)
@@ -6,26 +8,48 @@
 
 # 一个喜欢不断尝试新东西的屑 
 
+## 社交链接
  <details>
-    <summary>社交链接</summary>
+    <summary>展开</summary>
 
 [![Static Badge](https://img.shields.io/badge/Github-black?logo=Github)](https://github.com/xzyl4303)
-[![Static Badge](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-grey?logo=Github)](https://xzyl4303.github.io/)
+    
+[![Static Badge](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-grey?logo=Github)](https://xzyl4303.github.io/) 
+
 [![Static Badge](https://img.shields.io/badge/blogger-orange?logo=blogger&logoColor=%23ffffff)](https://xgwji.blogspot.com/)
-[![Static Badge](https://img.shields.io/badge/BiliBili-pink?logo=bilibili)
-](https://space.bilibili.com/1179220018)
+
+[![Static Badge](https://img.shields.io/badge/BiliBili-pink?logo=bilibili) ](https://space.bilibili.com/1179220018)
+
+[![Static Badge](https://img.shields.io/badge/Outlook%E9%82%AE%E7%AE%B1-blue?logo=microsoftoutlook&logoColor=black) ](https://mail.live.com/owa/?to=xzyl4303@outlook.com)
+
+[![Static Badge](https://img.shields.io/badge/Gmail%E9%82%AE%E7%AE%B1-%23ffffff?logo=gmail&logoColor=%23EA4335)](https://mail.google.com/mail/?view=cm&fs=1&to=xzyl4303@gmail.com)
 
   </details>
 
 
-## 目前正在学习HTML5，CSS3，JavaScript语言
-
-[![Static Badge](https://img.shields.io/badge/HTML5-orange?logo=HTML5&logoColor=%23ffffff)](#)
-[![Static Badge](https://img.shields.io/badge/CSS3-blue?logo=CSS3&logoColor=%23ffffff)](#)
-[![Static Badge](https://img.shields.io/badge/JavaScript-yellow?logo=Javascript&logoColor=%23ffffff)](#)
+## 目前正在学习的编程语言
 
  <details>
-    <summary>开发所使用的工具</summary>
+
+   <summary>展开</summary>
+   
+[![Static Badge](https://img.shields.io/badge/Linux-black?logo=linux&logoColor=%23ffffff)](#)
+
+[![Static Badge](https://img.shields.io/badge/HTML5-orange?logo=HTML5&logoColor=%23ffffff)](#)
+
+[![Static Badge](https://img.shields.io/badge/CSS3-blue?logo=CSS3&logoColor=%23ffffff)](#)
+
+[![Static Badge](https://img.shields.io/badge/JavaScript-yellow?logo=Javascript&logoColor=%23ffffff)](#)
+
+[![Static Badge](https://img.shields.io/badge/MarkDown-%23ffffff?logo=markdown&logoColor=%23000000)](#)
+
+[![Static Badge](https://img.shields.io/badge/Python-%233776AB?logo=Python&logoColor=yellow)](#)
+ </details>
+
+## 开发所使用的工具
+
+ <details>
+    <summary>展开</summary>
 
 ![Static Badge](https://img.shields.io/badge/Vercel-black?logo=Vercel&logoColor=%23ffffff)
 ![Static Badge](https://img.shields.io/badge/Github-black?logo=GitHub&logoColor=%23ffffff)
@@ -33,11 +57,21 @@
 ![Static Badge](https://img.shields.io/badge/Visual%20Studio%20Code-black?logo=visualstudiocode&logoColor=blue)
 ![Static Badge](https://img.shields.io/badge/Xcode-black?logo=xcode&logoColor=blue)
 ![Static Badge](https://img.shields.io/badge/Chrome-black?logo=googlechrome)
+![Static Badge](https://img.shields.io/badge/Google%20Cloud-%23000000?logo=googlecloud&logoColor=%234285F4)
+![Static Badge](https://img.shields.io/badge/Github%20Pages-%23ffffff?logo=githubpages&logoColor=%23222222)
+ ![Static Badge](https://img.shields.io/badge/Mircosoft%20Bing-%23ffffff?logo=microsoftbing&logoColor=%23258FFA)
+![Static Badge](https://img.shields.io/badge/Mircosoft-%23ffffff?logo=microsoft&logoColor=%235E5E5E)
+![Static Badge](https://img.shields.io/badge/Mircosoft-%23ffffff?logo=google&logoColor=%234285F4)
+![Static Badge](https://img.shields.io/badge/Google%20Colab-%23ffffff?logo=googlecolab&logoColor=%23F9AB00)
+
  </details>
- </details>
-<div class="detail" style="display: flex;">
+ 
+
+ 
+ ## 我的爱好
+ 
   <details>
-    <summary>我的爱好</summary>
+    <summary>展开</summary>
      
 
 -  **小说&漫画**
@@ -74,7 +108,7 @@
 >
 >>> Python
 >>> 
->>> ![Static Badge](https://img.shields.io/badge/Python-%233776AB?logo=Python&logoColor=yellow)
+>>> [![Static Badge](https://img.shields.io/badge/Python-%233776AB?logo=Python&logoColor=yellow)](#)
 -  **游戏**
 >>> Minecraft
 > 
@@ -86,8 +120,11 @@
 -  **等等 ...**
 
    </details>
+
+## 统计信息
+   
   <details>
-     <summary>统计信息</summary>
+     <summary>展开</summary>
      
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xzyl4303&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
